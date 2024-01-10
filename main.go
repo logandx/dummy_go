@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+)
 
 func main() {
-
+	fmt.Println(runtime.NumCPU())
 	//mapTest()
 	//firstName1, secondName1 := getInitials("asd sdf")
 	//fmt.Println("First capital letter of names:", firstName1, secondName1)
