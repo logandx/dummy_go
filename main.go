@@ -1,9 +1,6 @@
 package main
 
-import "fmt"
-
 func main() {
-
 	//mapTest()
 	//firstName1, secondName1 := getInitials("asd sdf")
 	//fmt.Println("First capital letter of names:", firstName1, secondName1)
@@ -13,7 +10,7 @@ func main() {
 
 	/// Struct example
 
-	//user1 := createUserWithName("Oga")
+	//user1 := createBillWithName("Oga")
 	//
 	//user1.updateName("Tatsumi Oga")
 	//user1.updateItem("Lol", 5.5)
@@ -24,16 +21,16 @@ func main() {
 	//
 	//fmt.Printf(user1.format())
 
-	/// Bill input
-	newUser := createUser()
-	promptOptions(newUser)
-	fmt.Println(newUser)
-
+	//// Bill input
+	//newBill := createBill()
+	//promptOptions(newBill)
+	//fmt.Println(newBill)
+	createListOfShapes()
 }
 
 //
 //func sayGreeting(name string) {
-//	fmt.Printf("Good moring %v \n", name)
+//	fmt.Printf("Good morning %v \n", name)
 //}
 //
 //func cycleNames(names []string, f func(value string)) {

@@ -1,0 +1,6 @@
+Bill detail: 
+Name:                     ...My Bill
+Tomato:                   ...$5.1
+Salad:                    ...$3.1
+Tip:                      ...2
+Total:                    ...$10.20 
